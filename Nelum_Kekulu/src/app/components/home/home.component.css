@@ -91,7 +91,7 @@ body {
 }
 
 .page-two {
-  min-height: 900px;
+  min-height: 800px;
   background-image: url('/assets/images/Background1.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,7 +103,7 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
   color: White;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 80px;
+  font-size: 60px;
   font-weight: bold;
   padding-left: 30px;
   padding-top: 30px;
@@ -113,7 +113,7 @@ body {
 .page-two-content {
   padding-top: 25px;
   padding-left: 30px;
-  padding-right: 20%;
+  padding-right: 30px;
   color: white;
   font-family: arial;
   font-size: 30px;
@@ -126,16 +126,16 @@ body {
 .page-three {
   display: flex;
   flex-direction: column;
-  min-height: 900px;
+  min-height: 600px;
 }
 
 .page-three-one {
   min-height: 140px;
-  margin-top: 200px;
+  margin-top: 20px;
   background-color: rgb(134, 202, 220);
   font-style: 'Playfair display';
   font-weight: bold;
-  font-size: 75px;
+  font-size: 55px;
   display: flex;
   align-items: center;
   padding-left: 30px;
@@ -144,7 +144,7 @@ body {
 .page-three-two {
   display: flex;
   justify-content: center;
-  margin-bottom: 100px;
+  padding-bottom: 5%;
   padding-top: 5%;
 }
 
@@ -183,16 +183,16 @@ body {
   /* background-color: pink; */
   display: flex;
   flex-direction: column;
-  min-height: 900px;
+  min-height: 600px;
 }
 
 .page-four-heading {
   min-height: 140px;
-  margin-top: 200px;
+  margin-top: 20px;
   background-color: rgb(134, 202, 220);
   font-style: 'Playfair display';
   font-weight: bold;
-  font-size: 75px;
+  font-size: 50px;
   display: flex;
   align-items: center;
   padding-left: 30px;
@@ -265,15 +265,15 @@ body {
   min-height: 140px;
   font-style: 'Playfair display';
   font-weight: bold;
-  font-size: 75px;
+  font-size: 50px;
   display: flex;
   align-items: center;
   padding-left: 30px;
 }
 
 .page-five-content {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 20px;
   display: flex;
   padding-left: 10%;
   padding-right: 10%;
@@ -313,3 +313,6 @@ body {
   justify-content: center;
   font-size: 1.5em;
 }
+
+
+
