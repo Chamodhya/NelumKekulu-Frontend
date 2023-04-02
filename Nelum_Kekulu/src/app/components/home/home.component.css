@@ -126,12 +126,12 @@ body {
 .page-three {
   display: flex;
   flex-direction: column;
-  min-height: 900px;
+  /* min-height: 900px; */
 }
 
 .page-three-one {
   min-height: 140px;
-  margin-top: 200px;
+  margin-top: 20px;
   background-color: rgb(134, 202, 220);
   font-style: 'Playfair display';
   font-weight: bold;
@@ -188,7 +188,7 @@ body {
 
 .page-four-heading {
   min-height: 140px;
-  margin-top: 200px;
+  margin-top: 20px;
   background-color: rgb(134, 202, 220);
   font-style: 'Playfair display';
   font-weight: bold;
@@ -211,8 +211,8 @@ body {
 .page-four-row {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .block {
