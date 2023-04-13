@@ -1,4 +1,4 @@
-.page-one-header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,15 +11,16 @@
 
 .header-home {
   text-align: right;
+  width: 200px;
 }
 
 .header-donations {
   text-align-last: left;
+  width: 300px;
 }
 
 .header-home,
 .header-donations {
-  width: 200px;
   text-decoration: none;
   color: black;
 }

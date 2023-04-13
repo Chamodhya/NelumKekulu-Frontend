@@ -1,0 +1,93 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.project1 {
+  background-image: url('../../../assets/images/Page1-background.png');
+  padding-bottom: 60px;
+}
+
+.our-projects-title {
+  height: 60px;
+  font-size: 50px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  background-color: rgba(0,0,0,0.3);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.project-block {
+  display: flex;
+  background-color: rgba(0,0,0,0.3);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title {
+  height: 50px;
+  font-size: 45px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.project-info {
+  font-size: 35px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 30%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-right: 20px;
+}
+
+.images img {
+  width: 60%;
+  max-width: 500px;
+  object-fit: contain;
+}
+
+.image1 {
+  display: flex;
+  justify-content: left;
+  align-items: bottom;
+  flex: 1;
+}
+
+.image2 {
+  display: flex;
+  justify-content: right;
+  flex: 1;
+}
+
+.project2 {
+  background-image: url('../../../assets/images/Page2-background.png');
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
