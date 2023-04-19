@@ -5,11 +5,13 @@
   background-size: cover;
   background-position-x: center;
   background-position-y: center;
+  min-width: 1200px;
 }
 
 .project1 {
   background-image: url('../../../assets/images/Page1-background.png');
   padding-bottom: 60px;
+  min-height: 500px;
 }
 
 .our-projects-title {
@@ -42,8 +44,8 @@
   height: 50px;
   font-size: 45px;
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -51,10 +53,24 @@
 .project-info {
   font-size: 35px;
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.project-images {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.project-images img{
+  width: 15%;
+  margin-left: 2%;
+  margin-right: 2%;
+  min-width: 200px;
 }
 
 .images {
