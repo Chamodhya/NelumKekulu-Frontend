@@ -111,12 +111,12 @@ body {
 }
 
 .page-two-content {
-  padding-top: 15px;
+  padding-top: 10px;
   padding-left: 40px;
   padding-right: 50px;
   color: white;
   font-family: arial;
-  font-size: 30px;
+  font-size: 25px;
   text-align: justify;
 }
 
@@ -174,7 +174,7 @@ body {
 }
 
 .page-three-two-content p {
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: arial;
   margin-top: 5%;
   text-align: justify;
